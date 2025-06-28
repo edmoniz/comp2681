@@ -66,8 +66,7 @@ nav a {
   background-color: hsl(0, 0%, 42%, 0.4);
 }
 
-nav>:hover,
-nav>:active {
+nav>:hover, nav>:active {
   color: hsla(0, 0%, 100%, 0.7);
   background-color: hsla(0, 0%, 42%, 0.7);
 }

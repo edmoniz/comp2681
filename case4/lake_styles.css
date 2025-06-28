@@ -1,0 +1,147 @@
+﻿char@charset: "utf-8";
+@font-face {
+  font-family: cac_champagne;
+  src: url(cac_champagne.ttf);
+  src: url(cac_champagne.woff);
+}
+@font-face {
+  font-family: Dobkin;
+  src: url(DobkinPlain.ttf);
+  src: url(DobkinPlain.woff);
+}
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Ed Moniz
+   Date:   June 2025
+   
+   Filename: lake_styles.css
+
+*/
+
+/* Structural Styles */
+html {
+  background-color: lightgray;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+body {
+  background-color: rgba(255, 255, 240, 0.5);
+  font-family: Champagne;
+  
+}
+
+/* body header styles */
+h1 {
+  font-family: Champagne, cursive;
+  font-size: 2em;
+  padding-left: 15px;
+  color: rgb(75, 75, 75);
+}
+h2 {
+  font-family: Champagne, cursive;
+  font-size: 1.5em;
+  color: rgb(125, 125, 125);
+}
+
+p {
+  padding-left: 15px;
+  font-family: Champagne, sans-serif;
+}
+
+/* navigation styles */
+header>nav>ul>li>a {
+  /* remember to use full delaration */
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.0em;
+  background-color: rgba(253, 148, 95, 1.0);
+  color: white;
+  padding: 10px;
+  
+}
+header>nav>ul>li>a:hover, :active {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(253, 148, 95, 0.6);
+}
+#rightcol {
+      /* remember to use full delaration */
+      background-color: rgba(255, 255, 240, 0.8);
+      border-radius: 5px;
+      padding-bottom: 300px;
+      h2{
+        margin-left: 10px;
+        color: rgba(75, 75, 75, 1.0);
+      }
+      nav ul li {
+        list-style: none;
+      }
+      nav ul li a{
+        text-decoration: none;
+        font-family: champagne, sans-serif;
+        color: rgba(75, 75, 75, 0.9);
+      }
+      nav>ul>li>a:hover, :active {
+        color: rgba(255, 255, 255, 1.0);
+        background-color: rgba(75, 75, 75, 0.5);
+        padding: 3px;
+      }
+}
+#asideLeft {
+  background-color: rgba(253, 148, 95, 0.3);
+  border-radius: 10px;
+  font-size: 0,9em;
+  ul li {
+      font-family: champagne, sans-serif;
+      list-style: none;
+      padding-bottom: 5px;
+    }
+  a:hover, active {
+      color: rgba(255, 255, 255, 1.0);
+      background-color: rgba(75, 75, 75, 0.5);
+      padding: 3px;
+    }
+}
+
+#asideRight {
+  background-color: rgba(253, 148, 95, 0.3);
+  border-radius: 10px;
+  h2 {
+    margin-left: 15px;
+      color: rgba(75, 75, 75, 0.9);
+  }
+  p {
+    font-family: champagne, sans-serif;
+  }
+}
+blockquote {
+  color: rgba(94, 71, 71, 0.6);
+  font-family: chanpagne, cursive;
+  border-radius: 5px;
+  text-align: justify;
+  padding-top: 50px;
+}
+#rightcol blockquote::before {
+  content: open-quote;
+  font-family: ‘Times New Roman’, Times, serif;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+#rightcol blockquote::after {
+  content: close-quote;
+  font-family: ‘Times New Roman’, Times, serif;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+footer {
+  color: white;
+  background-color: rgb(101, 101, 101);
+  font-size: 0.9em;
+  text-align: center;
+  padding: 10px;
+}
